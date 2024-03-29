@@ -3,7 +3,7 @@ import { twMerge } from "tailwind-merge";
 
 type HeadingH1Props = {
   children: React.ReactNode;
-  className: string;
+  className?: string;
 };
 
 export function HeadingH1({ children, className }: HeadingH1Props) {
