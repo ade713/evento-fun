@@ -15,6 +15,9 @@ export async function getEvents(city: string) {
     where: {
       city: city === 'all' ? undefined : capitalizeWord(city),
     },
+    orderBy: {
+      date: 'asc',
+    },
   });
 
   return events;
