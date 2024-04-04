@@ -1,5 +1,5 @@
 import { HeadingH1 } from "@/components/heading-h1";
-import { getEvent } from "@/lib/utils";
+import { getEvent } from "@/lib/server-utils";
 import { Metadata } from "next";
 import Image from "next/image";
 
